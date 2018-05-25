@@ -1,0 +1,299 @@
+{
+	"id": "dd8e957f-08c6-41de-2ed2-bceab72c168b",
+	"name": "Coffee_shop",
+	"description": "",
+	"order": [
+		"18c3bdd1-331b-301c-7c3a-7ea767b80e77",
+		"7c956859-aac5-5d90-282a-8d30d1222e84",
+		"8be43772-dbeb-a983-0706-3f1cde43ca06",
+		"8c582c07-3abb-c906-c76f-91123ff61041",
+		"184343d3-2108-d98b-98eb-1cd6932d6737",
+		"1a7ac616-a988-d145-87e2-436a3dcf2d1f",
+		"5c98dc97-3258-213b-7bee-0d57f874b97b",
+		"4f2dfdca-bd2a-4696-9e87-1ff51f9ad4e9"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1527065851195,
+	"owner": 0,
+	"public": false,
+	"requests": [
+		{
+			"id": "184343d3-2108-d98b-98eb-1cd6932d6737",
+			"headers": "Content-Type: application/json\nAuthorization: JWT eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoyLCJ1c2VybmFtZSI6InJlc3RhcGlAZ21haWwuY29tIiwiZXhwIjoxNTMyMzI2ODUxLCJlbWFpbCI6InJlc3RhcGlAZ21haWwuY29tIn0.-zP97Xhq10t9G44o-xS3VfCtj34d1mWvtqToq9dRvJU\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "JWT eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoyLCJ1c2VybmFtZSI6InJlc3RhcGlAZ21haWwuY29tIiwiZXhwIjoxNTMyMzI2ODUxLCJlbWFpbCI6InJlc3RhcGlAZ21haWwuY29tIn0.-zP97Xhq10t9G44o-xS3VfCtj34d1mWvtqToq9dRvJU",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://127.0.0.1:8000/api/create_category/",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1527147532167,
+			"name": "create_category",
+			"description": "",
+			"collectionId": "dd8e957f-08c6-41de-2ed2-bceab72c168b",
+			"responses": [],
+			"rawModeData": "{\n\"name\":\"royal\"\n}"
+		},
+		{
+			"id": "18c3bdd1-331b-301c-7c3a-7ea767b80e77",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://127.0.0.1:8000/api/create_user/",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1527066079739,
+			"name": "create_user",
+			"description": "",
+			"collectionId": "dd8e957f-08c6-41de-2ed2-bceab72c168b",
+			"responses": [],
+			"rawModeData": "{\n\n\"email\":\"restapi@gmail.com\",\n\"first_name\":\"restapi\",\n\"last_name\":\"restapi\",\n\"date_of_birth\":\"1996-12-12\",\n\"password\":\"mmmm1374\"\n\n}"
+		},
+		{
+			"id": "1a7ac616-a988-d145-87e2-436a3dcf2d1f",
+			"headers": "Content-Type: application/json\nAuthorization: JWT eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoyLCJ1c2VybmFtZSI6InJlc3RhcGlAZ21haWwuY29tIiwiZXhwIjoxNTMyMjUwMjUxLCJlbWFpbCI6InJlc3RhcGlAZ21haWwuY29tIn0.fKNpLpkeY9xP5_Dzn6BvSaodfLpIloNiZLEDHZ5xP94\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "JWT eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoyLCJ1c2VybmFtZSI6InJlc3RhcGlAZ21haWwuY29tIiwiZXhwIjoxNTMyMjUwMjUxLCJlbWFpbCI6InJlc3RhcGlAZ21haWwuY29tIn0.fKNpLpkeY9xP5_Dzn6BvSaodfLpIloNiZLEDHZ5xP94",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://127.0.0.1:8000/api/create_product_customization/",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1527223476950,
+			"name": "create_product_customization",
+			"description": "",
+			"collectionId": "dd8e957f-08c6-41de-2ed2-bceab72c168b",
+			"responses": [],
+			"rawModeData": "[\n\t{\n\t\t\"product\":\"Latte\",\n\t\t\"customizable\":\"skim\",\n\t\t\"price\": 5000,\n\t\t\"is_available\": true\n\t},\n\t{\n\t\t\"product\":\"Latte\",\n\t\t\"customizable\":\"semi\",\n\t\t\"price\": 5000,\n\t\t\"is_available\": true\n\t},\n\t{\n\t\t\"product\":\"Latte\",\n\t\t\"customizable\":\"whole\",\n\t\t\"price\": 5000,\n\t\t\"is_available\": true\n\t},\n\t{\n\t\t\"product\":\"Cappuccino\",\n\t\t\"customizable\":\"small\",\n\t\t\"price\": 5000,\n\t\t\"is_available\": true\n\t},\n\t{\n\t\t\"product\":\"Cappuccino\",\n\t\t\"customizable\":\"medium\",\n\t\t\"price\": 5000,\n\t\t\"is_available\": true\n\t},\n\t{\n\t\t\"product\":\"Cappuccino\",\n\t\t\"customizable\":\"large\",\n\t\t\"price\": 5000,\n\t\t\"is_available\": true\n\t},\n\t{\n\t\t\"product\":\"Espresso\",\n\t\t\"customizable\":\"single\",\n\t\t\"price\": 5000,\n\t\t\"is_available\": true\n\t},\n\t{\n\t\t\"product\":\"Espresso\",\n\t\t\"customizable\":\"double\",\n\t\t\"price\": 5000,\n\t\t\"is_available\": true\n\t},\n\t{\n\t\t\"product\":\"Espresso\",\n\t\t\"customizable\":\"triple\",\n\t\t\"price\": 5000,\n\t\t\"is_available\": true\n\t},\n\t{\n\t\t\"product\":\"Tea\",\n\t\t\"customizable\":\"single\",\n\t\t\"price\": 5000,\n\t\t\"is_available\": true\n\t},\n\t{\n\t\t\"product\":\"Hot chocolate\",\n\t\t\"customizable\":\"small\",\n\t\t\"price\": 5000,\n\t\t\"is_available\": true\n\t},\n\t{\n\t\t\"product\":\"Hot chocolate\",\n\t\t\"customizable\":\"medium\",\n\t\t\"price\": 5000,\n\t\t\"is_available\": true\n\t},\n\t{\n\t\t\"product\":\"Hot chocolate\",\n\t\t\"customizable\":\"large\",\n\t\t\"price\": 5000,\n\t\t\"is_available\": true\n\t},\n\t{\n\t\t\"product\":\"Cookie\",\n\t\t\"customizable\":\"chocolate\",\n\t\t\"price\": 5000,\n\t\t\"is_available\": true\n\t},\n\t{\n\t\t\"product\":\"Cookie\",\n\t\t\"customizable\":\"chip\",\n\t\t\"price\": 5000,\n\t\t\"is_available\": true\n\t},\n\t{\n\t\t\"product\":\"Cookie\",\n\t\t\"customizable\":\"ginger\",\n\t\t\"price\": 5000,\n\t\t\"is_available\": true\n\t}\n\t\n]"
+		},
+		{
+			"id": "4f2dfdca-bd2a-4696-9e87-1ff51f9ad4e9",
+			"headers": "Content-Type: application/json\nAuthorization: JWT eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoyLCJ1c2VybmFtZSI6InJlc3RhcGlAZ21haWwuY29tIiwiZXhwIjoxNTMyMjUwMjUxLCJlbWFpbCI6InJlc3RhcGlAZ21haWwuY29tIn0.fKNpLpkeY9xP5_Dzn6BvSaodfLpIloNiZLEDHZ5xP94\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "JWT eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoyLCJ1c2VybmFtZSI6InJlc3RhcGlAZ21haWwuY29tIiwiZXhwIjoxNTMyMjUwMjUxLCJlbWFpbCI6InJlc3RhcGlAZ21haWwuY29tIn0.fKNpLpkeY9xP5_Dzn6BvSaodfLpIloNiZLEDHZ5xP94",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://127.0.0.1:8000/api/view_orders/",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1527223470950,
+			"name": "view_his_orders",
+			"description": "",
+			"collectionId": "dd8e957f-08c6-41de-2ed2-bceab72c168b",
+			"responses": [],
+			"rawModeData": "\n\n"
+		},
+		{
+			"id": "5c98dc97-3258-213b-7bee-0d57f874b97b",
+			"headers": "Content-Type: application/json\nAuthorization: JWT eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoyLCJ1c2VybmFtZSI6InJlc3RhcGlAZ21haWwuY29tIiwiZXhwIjoxNTMyMjUwMjUxLCJlbWFpbCI6InJlc3RhcGlAZ21haWwuY29tIn0.fKNpLpkeY9xP5_Dzn6BvSaodfLpIloNiZLEDHZ5xP94\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "JWT eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoyLCJ1c2VybmFtZSI6InJlc3RhcGlAZ21haWwuY29tIiwiZXhwIjoxNTMyMjUwMjUxLCJlbWFpbCI6InJlc3RhcGlAZ21haWwuY29tIn0.fKNpLpkeY9xP5_Dzn6BvSaodfLpIloNiZLEDHZ5xP94",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://127.0.0.1:8000/api/create_order_checklist/",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1527223480453,
+			"name": "create_order_checklist",
+			"description": "",
+			"collectionId": "dd8e957f-08c6-41de-2ed2-bceab72c168b",
+			"responses": [],
+			"rawModeData": "{ \n\t\"order_number\":5,\n\t\"consume_location\": 0,\n\t\"status\":0,\n\t\"content\":\n\t[{\n\t\t\"product_customization\": 18,\n\t\t\"number\":1\n\t},\n\t{\n\t\t\"product_customization\": 20,\n\t\t\"number\": 2\n\t}\n\t]\n}\n\n\n"
+		},
+		{
+			"id": "7c956859-aac5-5d90-282a-8d30d1222e84",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://127.0.0.1:8000/api/obtain_token_user/",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "dd8e957f-08c6-41de-2ed2-bceab72c168b",
+			"data": [],
+			"dataMode": "raw",
+			"name": "obtain_user_token",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1527066159514,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{\n\"email\":\"restapi@gmail.com\",\n\"password\":\"mmmm1374\"\n}"
+		},
+		{
+			"id": "8be43772-dbeb-a983-0706-3f1cde43ca06",
+			"headers": "Content-Type: application/json\nAuthorization: JWT eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoyLCJ1c2VybmFtZSI6InJlc3RhcGlAZ21haWwuY29tIiwiZXhwIjoxNTMyMzI2ODUxLCJlbWFpbCI6InJlc3RhcGlAZ21haWwuY29tIn0.-zP97Xhq10t9G44o-xS3VfCtj34d1mWvtqToq9dRvJU\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "JWT eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoyLCJ1c2VybmFtZSI6InJlc3RhcGlAZ21haWwuY29tIiwiZXhwIjoxNTMyMzI2ODUxLCJlbWFpbCI6InJlc3RhcGlAZ21haWwuY29tIn0.-zP97Xhq10t9G44o-xS3VfCtj34d1mWvtqToq9dRvJU",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://127.0.0.1:8000/api/update_user/",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1527147529465,
+			"name": "get_update_user",
+			"description": "",
+			"collectionId": "dd8e957f-08c6-41de-2ed2-bceab72c168b",
+			"responses": [],
+			"rawModeData": "{\n\"email\":\"restapi@gmail.com\",\n\"password\":\"mmmm1374\"\n}"
+		},
+		{
+			"id": "8c582c07-3abb-c906-c76f-91123ff61041",
+			"headers": "Content-Type: application/json\nAuthorization: JWT eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoyLCJ1c2VybmFtZSI6InJlc3RhcGlAZ21haWwuY29tIiwiZXhwIjoxNTMyMzI2ODUxLCJlbWFpbCI6InJlc3RhcGlAZ21haWwuY29tIn0.-zP97Xhq10t9G44o-xS3VfCtj34d1mWvtqToq9dRvJU\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "JWT eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoyLCJ1c2VybmFtZSI6InJlc3RhcGlAZ21haWwuY29tIiwiZXhwIjoxNTMyMzI2ODUxLCJlbWFpbCI6InJlc3RhcGlAZ21haWwuY29tIn0.-zP97Xhq10t9G44o-xS3VfCtj34d1mWvtqToq9dRvJU",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://127.0.0.1:8000/api/create_product/",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1527147521921,
+			"name": "create_product",
+			"description": "",
+			"collectionId": "dd8e957f-08c6-41de-2ed2-bceab72c168b",
+			"responses": [],
+			"rawModeData": "[\n\t{\n\t\t\"name\":\"Latte\",\n\t\t\"category\":\"royal\"\n\t},\n\t{\n\t\t\"name\":\"Cappuccino\",\n\t\t\"category\":\"royal\"\n\t},\n\t{\n\t\t\"name\":\"Espresso\",\n\t\t\"category\":\"royal\"\n\t},\n\t{\n\t\t\"name\":\"Tea\",\n\t\t\"category\":\"royal\"\n\t},\n\t{\n\t\t\"name\":\"Hot chocolate\",\n\t\t\"category\":\"royal\"\n\t},\n\t{\n\t\t\"name\":\"Cookie\",\n\t\t\"category\":\"royal\"\n\t}\n\t\n]"
+		}
+	]
+}
